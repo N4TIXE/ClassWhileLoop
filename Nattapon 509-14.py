@@ -7,7 +7,12 @@ print("\nEX.2")
 i = 2
 while i <= 17:
     print(i)
-    i += 3
+    if i == 11:
+        i += 2
+    elif i == 13:
+        i += 1
+    else:
+        i += 3
 print("\nEX.3")
 i = 100
 while i >= -100:
@@ -23,4 +28,3 @@ i = 15
 while i <= 55:
     print(i)
     i += 8
-
